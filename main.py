@@ -10,6 +10,10 @@ timestart = datetime.now()
 #print(f"time: {datetime.now().strftime("%Y%m%d_%H_%M_%S")}")
 # 定义要访问的多个URL
 urls = [
+    'https://mirror.ghproxy.com/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u',
+    'https://raw.githubusercontent.com/jisoypub/iptv/master/cn_all.m3u',
+    'https://raw.githubusercontent.com/cwl530/TV/main/Live.txt',
+    'https://bitbucket.org/ranli2000/tvbox/raw/b119caa546f554deb6e665c59a047b190a59e530/live.json',
     'https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u',
     'https://raw.githubusercontent.com/joevess/IPTV/main/iptv.m3u8',
     'https://raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt',
